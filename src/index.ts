@@ -1,1 +1,4 @@
-console.log('Server started...')
+import {server} from 'codepunk-local-api';
+
+server();
+
