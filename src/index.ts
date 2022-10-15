@@ -1,4 +1,6 @@
-import {server} from 'codepunk-local-api';
+import {program} from 'commander';
+import {serveCommand} from './commands/serve-command';
 
-server();
+program.addCommand(serveCommand) 
 
+program.parse(process.argv);
