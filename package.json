@@ -1,0 +1,11 @@
+{
+  "name": "codepunk-cli",
+  "version": "1.0.0",
+  "description": "cli for codepunk package",
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lullabyX",
+  "license": "ISC"
+}
