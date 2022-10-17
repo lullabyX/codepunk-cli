@@ -16,12 +16,14 @@
   "author": "lullabyX",
   "license": "ISC",
   "dependencies": {
-    "@codepunk/client": "^1.0.0"
+    "@codepunk_/client": "^1.0.0",
+    "@codepunk_/local-api": "^1.0.0"
   },
   "devDependencies": {
-    "@codepunk/local-api": "^1.0.0",
+    "@codepunk_/local-api": "^1.0.0",
     "@types/node": "^18.11.0",
     "commander": "^9.4.1",
     "esbuild": "^0.15.11"
-  }
+  },
+  "gitHead": "4eb419c98c0570a59f17f3d196e367a62064c99d"
 }
