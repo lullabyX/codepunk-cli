@@ -1,4 +1,4 @@
-import { serve } from "codepunk-local-api";
+import { serve } from "@codepunk/local-api";
 import { Command } from "commander";
 import path from "path";
 
