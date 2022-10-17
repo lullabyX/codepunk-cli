@@ -6,6 +6,8 @@ interface LocalApiError {
   code: string;
 }
 
+const isProduction = process.env.NODE_ENV === "production";
+
 export const serveCommand = new Command("serve")
   .command("serve [filepath]")
   .description("Open cudepunk file in codepunk local client")
@@ -21,7 +23,7 @@ export const serveCommand = new Command("serve")
       return typeof error.code === "string";
     };
     try {
-      await serve(filename, parseInt(port), dir);
+      await serve(filename, parseInt(port), dir, !isProduction);
       console.log(
         `Server started. Visit http://localhost:${port} to view the notebook: ${filename}`
       );
