@@ -1,6 +1,6 @@
 {
   "name": "codepunk",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "cli for codepunk package",
   "bin": "dist/index.js",
   "files": [
@@ -11,13 +11,13 @@
   },
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
-    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.evn.NODE_ENV=\\\"production\\\""
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV='production'"
   },
   "author": "lullabyX",
   "license": "ISC",
   "dependencies": {
-    "@codepunk_/client": "^1.0.1",
-    "@codepunk_/local-api": "^1.0.1"
+    "@codepunk_/client": "^1.0.3",
+    "@codepunk_/local-api": "^1.0.3"
   },
   "devDependencies": {
     "@codepunk_/local-api": "^1.0.0",
@@ -25,5 +25,5 @@
     "commander": "^9.4.1",
     "esbuild": "^0.15.11"
   },
-  "gitHead": "7623ac0298f10f899b592e4be16d80c7c6b5be58"
+  "gitHead": "37a5ad73bd17f5b1a7ecee79caad150f4b286f74"
 }
