@@ -26,9 +26,9 @@ This runs the local server at port 4005 (default) which serves the local client.
 * Open a specific notebook. (file path is relative)
 
   `codepunk serve mynote.js`
-* Start server on different port
+* Start server on a different port
 
-  `codepunk serve newnote.js -port 4040`
+  `codepunk serve mynote.js --port 4040`
 
 # Client
 
