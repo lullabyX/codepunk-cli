@@ -1,6 +1,6 @@
 {
   "name": "codepunk",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "cli for codepunk package",
   "bin": "dist/index.js",
   "files": [
@@ -16,8 +16,8 @@
   "author": "lullabyX",
   "license": "ISC",
   "dependencies": {
-    "@codepunk_/client": "^1.0.4",
-    "@codepunk_/local-api": "^1.0.4"
+    "@codepunk_/client": "^1.0.6",
+    "@codepunk_/local-api": "^1.0.6"
   },
   "devDependencies": {
     "@codepunk_/local-api": "^1.0.0",
@@ -25,5 +25,5 @@
     "commander": "^9.4.1",
     "esbuild": "^0.15.11"
   },
-  "gitHead": "6661c3d313b4978b98fb042754378fa730e3a4c0"
+  "gitHead": "601d218459da6c9580a5b1d69ca2e71ed0dd98b4"
 }
